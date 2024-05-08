@@ -1,0 +1,60 @@
+@charset "UTF-8";
+body {
+  background-color: rgb(100, 149, 237);
+}
+ 
+#wrap {
+  width: 960px;
+  margin: auto;
+  background-color: white;
+  color: rgb(23, 59, 121);
+}
+ 
+header {
+  padding: 40px;
+  height: 80px;
+}
+ 
+nav {
+  padding: 8px 40px;
+  background-color: black;
+  color: white;
+}
+ 
+main {
+  padding: 40px;
+  height : 400px;
+}
+ 
+footer {
+  padding: 40px;
+  height: 40px;
+  background-color : black;
+  color: white;
+}
+
+a {
+  color: rgb(152, 160, 185);
+  text-decoration: none;
+}
+
+a:visited {
+  color: navy;
+}
+
+a:hover {
+  color: khaki;
+  text-decoration: underline;
+}
+
+a:active{
+  color: brown;
+}
+
+table {
+  width: 100%;
+}
+
+table tr:nth-of-type(even) {
+  background-color: gray;
+}
